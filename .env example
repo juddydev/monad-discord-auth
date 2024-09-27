@@ -9,5 +9,5 @@ DISCORD_SECRET=your_discord_secret_here
 
 MONAD_GUILD_ID=MONAD_GUILD_ID_here
 
-# POSTGRES
-DATABASE_URL=your_postgres_url_here
+# POSTGRES Using a Default Connection URI
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/monad-discord-auth
